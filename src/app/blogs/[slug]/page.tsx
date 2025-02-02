@@ -16,7 +16,7 @@ interface post{
     authorBio:string,
     mainImage:string,
     publishedAt:string,
-    body:Object[],
+    body:object[],
   }
 
 
