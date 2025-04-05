@@ -1,4 +1,3 @@
-
 "use client"
 
 import React, { useEffect, useState } from 'react';
@@ -68,7 +67,7 @@ const Featured = () => {
         <h1 className="text-3xl mb-5 sm:mb-7  text-customcolor sm:text-4xl font-bold">
           Popular Topics
         </h1>
-        {/* Dynamically generated category buttons */}
+       
         <div className="flex sm:gap-x-2  mb-6 text-customcolor text-lg">
           <button
             className={`py-2 pr-2 ${selectedCategory === 'All' ? 'border-b-2 pt-2 text-blue-500  border-blue-500' : 'border-none'}`}

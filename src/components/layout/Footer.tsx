@@ -4,7 +4,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <footer className="bg-[rgb(33,37,41)] px-4 sm:px-6 mt-20 sm:mt-32 pt-10  sm:pt-16 pb-10 font-[sans-serif]">
+    <footer className="bg-[rgb(33,37,41)] px-4 sm:px-6 mt-20 sm:mt-0 pt-10  sm:pt-0 pb-10 font-[sans-serif]">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         <div className="space-y-4">
           <h6 className="text-sm text-white font-semibold">Contact the Publisher</h6>
